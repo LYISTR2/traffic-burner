@@ -24,9 +24,9 @@ import requests
 
 DEFAULT_URLS = [
     # Public large test files / mirrors (examples; replace with your own if needed)
-    "https://speed.hetzner.de/1GB.bin",
     "https://proof.ovh.net/files/1Gb.dat",
-    "https://download.samplelib.com/mp4/sample-30s.mp4",
+    "https://cachefly.cachefly.net/100mb.test",
+    "https://speed.cloudflare.com/__down?bytes=1000000000",
 ]
 
 stop_requested = False
