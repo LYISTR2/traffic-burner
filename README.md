@@ -16,7 +16,22 @@
 
 ### Linux
 
+如果提示 `No such file or directory`，通常是因为不在项目目录。
+
+首次使用：
+
 ```bash
+cd ~
+git clone https://github.com/LYISTR2/traffic-burner.git
+cd traffic-burner
+chmod +x oneclick.sh
+./oneclick.sh
+```
+
+如果之前已经 clone 过：
+
+```bash
+cd ~/traffic-burner
 chmod +x oneclick.sh
 ./oneclick.sh
 ```
