@@ -12,7 +12,25 @@
 - 自动切换下载源，源异常时重试退避
 - 实时打印：累计流量、瞬时速度、剩余时间
 
-## 安装
+## 一键启动（小白推荐）
+
+### Linux
+
+```bash
+chmod +x oneclick.sh
+./oneclick.sh
+```
+
+### macOS（双击版）
+
+```bash
+chmod +x oneclick.command
+# 然后可在 Finder 双击 oneclick.command
+```
+
+脚本会自动：创建虚拟环境、安装依赖、询问时长和速率、启动任务。
+
+## 安装（手动方式）
 
 ```bash
 python3 -m venv .venv
