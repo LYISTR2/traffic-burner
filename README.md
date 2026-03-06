@@ -47,9 +47,24 @@
 ### 本地运行
 
 ```bash
-chmod +x run.sh install-service.sh uninstall-service.sh stop-service.sh bootstrap.sh
+chmod +x run.sh menu.sh install-service.sh uninstall-service.sh stop-service.sh bootstrap.sh
 ./run.sh --preset low
 ```
+
+### 交互菜单运行（更省事）
+
+```bash
+./menu.sh
+```
+
+会直接给你这些选项：
+- 轻度慢烧
+- 长期挂机
+- 今天烧 20GB
+- 自定义前台运行
+- 安装后台服务
+- 停止后台服务
+- 卸载后台服务
 
 ### 常见例子
 
@@ -194,7 +209,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/LYISTR2/traffic-burner/main/
 
 ## 文件说明
 
-- `run.sh`：主入口
+- `run.sh`：参数式主入口
+- `menu.sh`：交互菜单入口
 - `install-service.sh`：安装 systemd 服务
 - `stop-service.sh`：主动停止后台服务
 - `uninstall-service.sh`：卸载后台服务
