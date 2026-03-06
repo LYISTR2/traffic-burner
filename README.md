@@ -51,13 +51,13 @@ chmod +x run.sh menu.sh install-service.sh uninstall-service.sh stop-service.sh 
 ./run.sh --preset low
 ```
 
-### 交互菜单运行（更省事）
+### 交互菜单运行（中文版本，更省事）
 
 ```bash
 ./menu.sh
 ```
 
-会直接给你这些选项：
+会直接给你这些中文选项：
 - 轻度慢烧
 - 长期挂机
 - 今天烧 20GB
